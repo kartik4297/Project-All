@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTravels Test]">
+  <parameter name="password" value="demouser"/>
+  <parameter name="fakePassword" value="fake"/>
+  <parameter name="browser" value="internetexplorer"/>
+  <parameter name="fakeUsername" value="fake@phptravels.com"/>
+  <parameter name="username" value="user@phptravels.com"/>
+  <test name="Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.SearchTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.SearchTest -->
+      <class name="test.PersonalTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.PersonalTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="failLogin"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.DetailsTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.DetailsTest -->
+      <class name="test.HomeTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.HomeTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="InternetExplorer(failed)">
+    <parameter name="browser" value="internetexplorer"/>
+    <classes>
+      <class name="test.SearchTest">
+        <methods>
+          <include name="applyFilter"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="getDetails"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.SearchTest -->
+      <class name="test.PersonalTest">
+        <methods>
+          <include name="register"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.PersonalTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="failLogin"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.DetailsTest">
+        <methods>
+          <include name="booking"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.DetailsTest -->
+      <class name="test.HomeTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="searchCarsByPickupLoc"/>
+        </methods>
+      </class> <!-- test.HomeTest -->
+    </classes>
+  </test> <!-- InternetExplorer(failed) -->
+</suite> <!-- Failed suite [PHPTravels Test] -->

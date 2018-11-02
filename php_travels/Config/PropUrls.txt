@@ -1,0 +1,7 @@
+HomePageUrl=http://www.phptravels.net/
+
+CarSearchUrl=http://www.phptravels.net/cars/search?pickupLocation=7&dropoffLocation=7&pickupDate=29%2F10%2F2018&pickupTime=Time&dropoffDate=30%2F10%2F2018&dropoffTime=Time
+
+CarMapUrl=http://www.phptravels.net/cars/united-kingdom/manchester/Kia-Pacanto-2014?&pickupLocation=7&dropoffLocation=7&pickupDate=29/10/2018&pickupTime=Time&dropoffDate=30/10/2018&dropoffTime=Time
+
+InvoiceUrl=http://www.phptravels.net/invoice?id=129&sessid=7306

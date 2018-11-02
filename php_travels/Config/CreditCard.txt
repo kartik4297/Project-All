@@ -1,0 +1,8 @@
+
+CCFirstName=firstname
+
+CCLastName=lastname
+
+CCCardNumbercardnum
+
+CCCardCVV=cvv

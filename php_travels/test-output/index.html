@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PHPTravels_Test">
+              <span class="suite-name border-failed">PHPTravels Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PHPTravels_Test">
+                    <span>D:\Training\Spring4Practice\php_travels\testngfile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PHPTravels_Test">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PHPTravels_Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PHPTravels_Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PHPTravels_Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PHPTravels_Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PHPTravels_Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 7 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PHPTravels_Test" class="hide-methods failed suite-PHPTravels_Test"> (hide)</a> <!-- hide-methods failed suite-PHPTravels_Test -->
+                      <a href="#" panel-name="suite-PHPTravels_Test" class="show-methods failed suite-PHPTravels_Test"> (show)</a> <!-- show-methods failed suite-PHPTravels_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-PHPTravels_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.SearchTest" hash-for-method="applyFilter">applyFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="booking">booking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.SearchTest" hash-for-method="getDetails">getDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.LoginTest" hash-for-method="login(user@phptravels.com, demouser)">login(user@phptravels.com, demouser)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.LoginTest" hash-for-method="login(user@phptravels.com, demouser)">login(user@phptravels.com, demouser)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.PersonalTest" hash-for-method="register">register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.HomeTest" hash-for-method="searchCarsByPickupLoc">searchCarsByPickupLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PHPTravels_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PHPTravels_Test" class="hide-methods passed suite-PHPTravels_Test"> (hide)</a> <!-- hide-methods passed suite-PHPTravels_Test -->
+                      <a href="#" panel-name="suite-PHPTravels_Test" class="show-methods passed suite-PHPTravels_Test"> (show)</a> <!-- show-methods passed suite-PHPTravels_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-PHPTravels_Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.SearchTest" hash-for-method="applyFilter">applyFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="booking">booking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.LoginTest" hash-for-method="failLogin(fake@phptravels.com, fake)">failLogin(fake@phptravels.com, fake)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.LoginTest" hash-for-method="failLogin(fake@phptravels.com, fake)">failLogin(fake@phptravels.com, fake)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.SearchTest" hash-for-method="getDetails">getDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="isDropUpLocationMatching">isDropUpLocationMatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="isDropUpLocationMatching">isDropUpLocationMatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="isPicUpLocationMatching">isPicUpLocationMatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.DetailsTest" hash-for-method="isPicUpLocationMatching">isPicUpLocationMatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.PersonalTest" hash-for-method="register">register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.HomeTest" hash-for-method="searchCarsByPickupLoc">searchCarsByPickupLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.HomeTest" hash-for-method="searchFailedByPickupLoc">searchFailedByPickupLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHPTravels_Test" title="test.HomeTest" hash-for-method="searchFailedByPickupLoc">searchFailedByPickupLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PHPTravels_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PHPTravels_Test" class="panel PHPTravels_Test">
+          <div class="suite-PHPTravels_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.PersonalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;CHNSIPDT0T1027&apos;, ip: &apos;10.219.34.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:4677/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, platformName=WINDOWS, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: bb17d8f5-136c-4b93-a7d9-96c25e5f31cd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.phptravels.hexatest.pageobject.PersonalDetailsPage.verifylastname(PersonalDetailsPage.java:129)
+	at test.PersonalTest.register(PersonalTest.java:26)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-failed -->
+          <div class="suite-PHPTravels_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyFilter">
+                  </a> <!-- applyFilter -->
+                  <span class="method-name">applyFilter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;CHNSIPDT0T1027&apos;, ip: &apos;10.219.34.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, platformName=WINDOWS, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2b08caba-4b60-47aa-9ab3-2cd7f4910792
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:314)
+	at com.phptravels.hexatest.pageobject.SearchPage.getTitle(SearchPage.java:181)
+	at test.SearchTest.applyFilter(SearchTest.java:34)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDetails">
+                  </a> <!-- getDetails -->
+                  <span class="method-name">getDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;CHNSIPDT0T1027&apos;, ip: &apos;10.219.34.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, platformName=WINDOWS, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2b08caba-4b60-47aa-9ab3-2cd7f4910792
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at test.SearchTest.getDetails(SearchTest.java:39)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-failed -->
+          <div class="suite-PHPTravels_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(user@phptravels.com, demouser)">
+                  </a> <!-- login(user@phptravels.com, demouser) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(user@phptravels.com, demouser)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;CHNSIPDT0T1027&apos;, ip: &apos;10.219.34.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52451}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\kartikks\AppData\Local\Temp\scoped_dir4912_15736}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.77, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 68e60a60cf38b6bc092509d76c6bf5cf
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.phptravels.hexatest.pageobject.LoginPage.enterUserName(LoginPage.java:28)
+	at test.LoginTest.login(LoginTest.java:29)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(user@phptravels.com, demouser)">
+                  </a> <!-- login(user@phptravels.com, demouser) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(user@phptravels.com, demouser)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [My Account] but found [Login]
+	at test.LoginTest.login(LoginTest.java:36)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-failed -->
+          <div class="suite-PHPTravels_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.DetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="booking">
+                  </a> <!-- booking -->
+                  <span class="method-name">booking</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Unable to find element on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;CHNSIPDT0T1027&apos;, ip: &apos;10.219.34.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:42581/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, platformName=WINDOWS, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: dc6ceccb-fd92-42d2-8390-f9c0eeab0525
+*** Element info: {Using=xpath, value=.//*[@id=&apos;body-section&apos;]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.phptravels.hexatest.pageobject.PersonalDetailsPage.getHeading(PersonalDetailsPage.java:278)
+	at test.DetailsTest.booking(DetailsTest.java:59)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-failed -->
+          <div class="suite-PHPTravels_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCarsByPickupLoc">
+                  </a> <!-- searchCarsByPickupLoc -->
+                  <span class="method-name">searchCarsByPickupLoc</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Search Results] but found [PHPTRAVELS | Travel Technology Partner]
+	at test.HomeTest.searchCarsByPickupLoc(HomeTest.java:74)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-failed -->
+          <div class="suite-PHPTravels_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyFilter">
+                  </a> <!-- applyFilter -->
+                  <span class="method-name">applyFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDetails">
+                  </a> <!-- getDetails -->
+                  <span class="method-name">getDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-passed -->
+          <div class="suite-PHPTravels_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.PersonalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-passed -->
+          <div class="suite-PHPTravels_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failLogin(fake@phptravels.com, fake)">
+                  </a> <!-- failLogin(fake@phptravels.com, fake) -->
+                  <span class="method-name">failLogin</span>
+                  <span class="parameters">(fake@phptravels.com, fake)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="failLogin(fake@phptravels.com, fake)">
+                  </a> <!-- failLogin(fake@phptravels.com, fake) -->
+                  <span class="method-name">failLogin</span>
+                  <span class="parameters">(fake@phptravels.com, fake)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-passed -->
+          <div class="suite-PHPTravels_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="booking">
+                  </a> <!-- booking -->
+                  <span class="method-name">booking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isDropUpLocationMatching">
+                  </a> <!-- isDropUpLocationMatching -->
+                  <span class="method-name">isDropUpLocationMatching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isDropUpLocationMatching">
+                  </a> <!-- isDropUpLocationMatching -->
+                  <span class="method-name">isDropUpLocationMatching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPicUpLocationMatching">
+                  </a> <!-- isPicUpLocationMatching -->
+                  <span class="method-name">isPicUpLocationMatching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPicUpLocationMatching">
+                  </a> <!-- isPicUpLocationMatching -->
+                  <span class="method-name">isPicUpLocationMatching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-passed -->
+          <div class="suite-PHPTravels_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCarsByPickupLoc">
+                  </a> <!-- searchCarsByPickupLoc -->
+                  <span class="method-name">searchCarsByPickupLoc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFailedByPickupLoc">
+                  </a> <!-- searchFailedByPickupLoc -->
+                  <span class="method-name">searchFailedByPickupLoc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFailedByPickupLoc">
+                  </a> <!-- searchFailedByPickupLoc -->
+                  <span class="method-name">searchFailedByPickupLoc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHPTravels_Test-class-passed -->
+        </div> <!-- panel PHPTravels_Test -->
+        <div panel-name="test-xml-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Training\Spring4Practice\php_travels\testngfile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PHPTravels Test&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;demouser&quot;/&gt;
+  &lt;parameter name=&quot;fakePassword&quot; value=&quot;fake&quot;/&gt;
+  &lt;parameter name=&quot;fakeUsername&quot; value=&quot;fake@phptravels.com&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;user@phptravels.com&quot;/&gt;
+  &lt;test name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.HomeTest&quot;/&gt;
+      &lt;class name=&quot;test.SearchTest&quot;/&gt;
+      &lt;class name=&quot;test.DetailsTest&quot;/&gt;
+      &lt;class name=&quot;test.PersonalTest&quot;/&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test name=&quot;InternetExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internetexplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.HomeTest&quot;/&gt;
+      &lt;class name=&quot;test.SearchTest&quot;/&gt;
+      &lt;class name=&quot;test.DetailsTest&quot;/&gt;
+      &lt;class name=&quot;test.PersonalTest&quot;/&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- InternetExplorer --&gt;
+&lt;/suite&gt; &lt;!-- PHPTravels Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PHPTravels Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">InternetExplorer (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PHPTravels Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PHPTravels Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PHPTravels_Test');
+function tableData_PHPTravels_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchCarsByPickupLoc')
+data.setCell(0, 2, 'test.HomeTest')
+data.setCell(0, 3, 23404);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchFailedByPickupLoc')
+data.setCell(1, 2, 'test.HomeTest')
+data.setCell(1, 3, 23385);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchCarsByPickupLoc')
+data.setCell(2, 2, 'test.HomeTest')
+data.setCell(2, 3, 22584);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchFailedByPickupLoc')
+data.setCell(3, 2, 'test.HomeTest')
+data.setCell(3, 3, 21164);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getDetails')
+data.setCell(4, 2, 'test.SearchTest')
+data.setCell(4, 3, 12227);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'register')
+data.setCell(5, 2, 'test.PersonalTest')
+data.setCell(5, 3, 12014);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'applyFilter')
+data.setCell(6, 2, 'test.SearchTest')
+data.setCell(6, 3, 10444);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'applyFilter')
+data.setCell(7, 2, 'test.SearchTest')
+data.setCell(7, 3, 9785);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isPicUpLocationMatching')
+data.setCell(8, 2, 'test.DetailsTest')
+data.setCell(8, 3, 6834);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'register')
+data.setCell(9, 2, 'test.PersonalTest')
+data.setCell(9, 3, 4717);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'failLogin')
+data.setCell(10, 2, 'test.LoginTest')
+data.setCell(10, 3, 4312);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'isPicUpLocationMatching')
+data.setCell(11, 2, 'test.DetailsTest')
+data.setCell(11, 3, 4095);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login')
+data.setCell(12, 2, 'test.LoginTest')
+data.setCell(12, 3, 3542);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'failLogin')
+data.setCell(13, 2, 'test.LoginTest')
+data.setCell(13, 3, 3341);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'booking')
+data.setCell(14, 2, 'test.DetailsTest')
+data.setCell(14, 3, 2719);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'booking')
+data.setCell(15, 2, 'test.DetailsTest')
+data.setCell(15, 3, 1711);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'login')
+data.setCell(16, 2, 'test.LoginTest')
+data.setCell(16, 3, 1148);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'isDropUpLocationMatching')
+data.setCell(17, 2, 'test.DetailsTest')
+data.setCell(17, 3, 183);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isDropUpLocationMatching')
+data.setCell(18, 2, 'test.DetailsTest')
+data.setCell(18, 3, 40);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getDetails')
+data.setCell(19, 2, 'test.SearchTest')
+data.setCell(19, 3, 33);
+window.suiteTableData['PHPTravels_Test']= { tableData: data, tableDiv: 'times-div-PHPTravels_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-PHPTravels_Test">
+              </div> <!-- times-div-PHPTravels_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PHPTravels Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PHPTravels_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchFailedByPickupLoc</span>
+                <span class="method-start">2990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=searchFailedByPickupLoc status=SUCCESS method=HomeTest.searchFailedByPickupLoc()[pr...)</span>
+                <span class="method-start">24155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchCarsByPickupLoc</span>
+                <span class="method-start">24155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">46740 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=searchCarsByPickupLoc status=SUCCESS method=HomeTest.searchCarsByPickupLoc()[pri:0,...)</span>
+                <span class="method-start">46740 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(chrome)</span>
+                <span class="method-start">46799 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">applyFilter</span>
+                <span class="method-start">49308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDetails</span>
+                <span class="method-start">59752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=applyFilter status=SUCCESS method=SearchTest.applyFilter()[pri:0, instance:test.Sea...)</span>
+                <span class="method-start">59752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=getDetails status=SUCCESS method=SearchTest.getDetails()[pri:0, instance:test.Searc...)</span>
+                <span class="method-start">71979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">71980 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(chrome)</span>
+                <span class="method-start">72040 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isPicUpLocationMatching</span>
+                <span class="method-start">74972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isDropUpLocationMatching</span>
+                <span class="method-start">81807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=isPicUpLocationMatching status=SUCCESS method=DetailsTest.isPicUpLocationMatching()...)</span>
+                <span class="method-start">81807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=isDropUpLocationMatching status=SUCCESS method=DetailsTest.isDropUpLocationMatching...)</span>
+                <span class="method-start">81848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">booking</span>
+                <span class="method-start">81849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">83561 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=booking status=SUCCESS method=DetailsTest.booking()[pri:0, instance:test.DetailsTes...)</span>
+                <span class="method-start">83561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.PersonalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(chrome)</span>
+                <span class="method-start">83617 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">register</span>
+                <span class="method-start">86472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">98487 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=register status=SUCCESS method=PersonalTest.register()[pri:0, instance:test.Persona...)</span>
+                <span class="method-start">98487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(chrome)</span>
+                <span class="method-start">98539 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">failLogin(fake@phptravels.com, fake)</span>
+                <span class="method-start">101046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(user@phptravels.com, demouser)</span>
+                <span class="method-start">105358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=failLogin status=SUCCESS method=LoginTest.failLogin(java.lang.String, java.lang.Str...)</span>
+                <span class="method-start">105358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=login status=FAILURE method=LoginTest.login(java.lang.String, java.lang.String)[pri...)</span>
+                <span class="method-start">106509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">106824 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(internetexplorer)</span>
+                <span class="method-start">106881 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchFailedByPickupLoc</span>
+                <span class="method-start">109401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=searchFailedByPickupLoc status=SUCCESS method=HomeTest.searchFailedByPickupLoc()[pr...)</span>
+                <span class="method-start">132786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchCarsByPickupLoc</span>
+                <span class="method-start">132786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=searchCarsByPickupLoc status=FAILURE method=HomeTest.searchCarsByPickupLoc()[pri:0,...)</span>
+                <span class="method-start">156190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">156220 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(internetexplorer)</span>
+                <span class="method-start">156252 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">applyFilter</span>
+                <span class="method-start">158756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=applyFilter status=FAILURE method=SearchTest.applyFilter()[pri:0, instance:test.Sea...)</span>
+                <span class="method-start">168541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getDetails</span>
+                <span class="method-start">168572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=getDetails status=FAILURE method=SearchTest.getDetails()[pri:0, instance:test.Searc...)</span>
+                <span class="method-start">168605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">168636 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(internetexplorer)</span>
+                <span class="method-start">168683 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isPicUpLocationMatching</span>
+                <span class="method-start">171102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isDropUpLocationMatching</span>
+                <span class="method-start">175197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=isPicUpLocationMatching status=SUCCESS method=DetailsTest.isPicUpLocationMatching()...)</span>
+                <span class="method-start">175197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">booking</span>
+                <span class="method-start">175380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=isDropUpLocationMatching status=SUCCESS method=DetailsTest.isDropUpLocationMatching...)</span>
+                <span class="method-start">175380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=booking status=FAILURE method=DetailsTest.booking()[pri:0, instance:test.DetailsTes...)</span>
+                <span class="method-start">178099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">178130 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.PersonalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(internetexplorer)</span>
+                <span class="method-start">178178 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">register</span>
+                <span class="method-start">180651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=register status=FAILURE method=PersonalTest.register()[pri:0, instance:test.Persona...)</span>
+                <span class="method-start">185368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">196800 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(internetexplorer)</span>
+                <span class="method-start">196848 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">failLogin(fake@phptravels.com, fake)</span>
+                <span class="method-start">199318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(user@phptravels.com, demouser)</span>
+                <span class="method-start">202659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=failLogin status=SUCCESS method=LoginTest.failLogin(java.lang.String, java.lang.Str...)</span>
+                <span class="method-start">202659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=login status=FAILURE method=LoginTest.login(java.lang.String, java.lang.String)[pri...)</span>
+                <span class="method-start">206201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">206620 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

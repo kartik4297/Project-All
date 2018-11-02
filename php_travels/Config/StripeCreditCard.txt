@@ -1,0 +1,8 @@
+
+SCCFirstName=firstname
+
+SCCLastName=lastname
+
+SCCCardNumber=cardnum
+
+SCCCardCVV=cvv

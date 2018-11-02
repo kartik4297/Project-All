@@ -1,0 +1,7 @@
+SignInEmail=username
+
+SignInPass=password
+
+NotesAddNotes=additionalnotes
+
+ApplyCoupon2=//*[@id="bookingdetails"]/div[5]/div[2]/div[2]/div[2]/input
